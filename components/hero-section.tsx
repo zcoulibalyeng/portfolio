@@ -118,16 +118,16 @@ export function HeroSection() {
               >
                 Get In Touch
               </MagneticButton>
-              <MagneticButton
-                  href="/resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  download="Zakaria_Coulibaly_resume.pdf"
-                  className="px-8 py-4 glass border border-border/50 dark:border-white/10 text-foreground font-semibold rounded-lg hover:border-primary/50 transition-colors flex items-center gap-2"
-              >
-                <Download size={18} />
-                Resume
-              </MagneticButton>
+              {/*<MagneticButton*/}
+              {/*    href="/resume.pdf"*/}
+              {/*    target="_blank"*/}
+              {/*    rel="noopener noreferrer"*/}
+              {/*    download="Zakaria_Coulibaly_resume.pdf"*/}
+              {/*    className="px-8 py-4 glass border border-border/50 dark:border-b-yellow-500/10 text-foreground font-semibold rounded-lg hover:border-primary/50 transition-colors flex items-center gap-2"*/}
+              {/*>*/}
+              {/*  <Download size={18} />*/}
+              {/*  Resume*/}
+              {/*</MagneticButton>*/}
             </motion.div>
 
             {/* Social Links - FIXED ACCESSIBILITY: Added aria-label to map function */}

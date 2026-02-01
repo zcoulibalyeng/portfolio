@@ -1,15 +1,13 @@
 
 export const personalInfo = {
   name: "Zakaria Coulibaly",
-  roles: ["Software Engineer", "AI/ML Engineer", "MLOps", "Open for Research"],
+  roles: ["Software Engineer", "AI/ML Software Engineer", "MLOPs", "Open for Research"],
   location: "United States",
   email: "zcoulibalyeng@gmail.com",
-  bio: "I'm a Software Engineer specializing in AI/ML systems and production deployment. Recent M.S. in Computer Science (AI/ML) from UIUC.\n" +
-      "I'm the person who reads the source code instead of just the documentation. I need to understand how things work under the hood.\n" +
-      "I don't just train models—I architect the systems that deploy them. From PyTorch development to Kubernetes orchestration, I build end-to-end ML pipelines that scale in production.\n",
+  bio: "I don't just train models—I architect the systems that power them. Driven by a \"source-code first\" philosophy, I bridge the gap between deep learning research and production-grade engineering. From PyTorch development to Kubernetes orchestration, I build scalable, end-to-end ML pipelines designed for the real world.",
   tagline: "Building the future with safe AI and elegant code",
   social: {
-    github: "https://github.com/levisstrauss",
+    github: "https://github.com/zcoulibalyeng",
     linkedin: "https://www.linkedin.com/in/codemon",
     twitter: "https://x.com/zcoulibalyeng",
   },

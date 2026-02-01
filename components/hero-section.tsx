@@ -61,7 +61,7 @@ export function HeroSection() {
                 initial={{ opacity: 1, y: 0 }}
                 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
             >
-              <span className="text-foreground">{"I'm "}</span>
+              <span className="text-foreground">{"👋 I'm "}</span>
               <span className="text-gradient glow-text">{personalInfo.name}</span>
             </motion.h1>
 

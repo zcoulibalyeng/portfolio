@@ -12,6 +12,8 @@ import { AvailabilityBadge } from "@/components/availability-badge"
 import { BackToTop } from "@/components/back-to-top"
 import { CertificationsSection } from "@/components/certifications-section"
 import {SnowEffect} from "@/components/snow-effect"
+import { NowSection } from "@/components/ui/now-section"
+
 
 export default function Home() {
     return (
@@ -26,6 +28,7 @@ export default function Home() {
             <main className="min-h-screen bg-background">
                 <Navigation />
                 <HeroSection />
+                <NowSection />
                 <AboutSection />
                 <ExperienceSection />
                 <ProjectsSection />

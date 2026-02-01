@@ -116,6 +116,9 @@ importers:
       cmdk:
         specifier: 1.0.4
         version: 1.0.4(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      components:
+        specifier: link:@/components
+        version: link:@/components
       contentful:
         specifier: ^11.10.1
         version: 11.10.1

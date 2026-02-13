@@ -13,17 +13,19 @@ import { BackToTop } from "@/components/back-to-top"
 import { CertificationsSection } from "@/components/certifications-section"
 import {SnowEffect} from "@/components/snow-effect"
 import { NowSection } from "@/components/ui/now-section"
+import { AiChatWidget } from "@/components/ai-chat-widget"
+
 
 
 export default function Home() {
     return (
         <>
             <Preloader />
-            {/*<CustomCursor />*/}
             <ScrollProgress />
             <AvailabilityBadge />
             <BackToTop />
             <SnowEffect />
+            <AiChatWidget />
 
             <main className="min-h-screen bg-background">
                 <Navigation />
